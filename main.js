@@ -1,0 +1,31 @@
+canvas= document.getElementById("MyCanvas")
+ctx=canvas.getcontext("2d")
+ctx.beginpath();
+ctx.trokestyle = "red";
+ctx.rect(150,143,430,200);
+ctx.stroke();
+ctx.beginpath();
+ctx.strokestyle = "blue";
+ctx.linewidth = 5;
+ctx.arc(250,210,40,0,2* Math.PI);
+ctx.stroke();
+ctx.beginpath();
+ctx.strokestyle = "blue";
+ctx.linewidth = 5;
+ctx.arc(300,210,40,0,2* Math.PI);
+ctx.stroke();
+ctx.beginpath();
+ctx.strokestyle = "blue";
+ctx.linewidth = 5;
+ctx.arc(350,210,40,0,2* Math.PI);
+ctx.stroke();
+ctx.beginpath();
+ctx.strokestyle = "blue";
+ctx.linewidth = 5;
+ctx.arc(270,250,40,0,2* Math.PI);
+ctx.stroke();
+ctx.beginpath();
+ctx.strokestyle = "blue";
+ctx.linewidth = 5;
+ctx.arc(250,300,40,0,2* Math.PI);
+ctx.stroke();
